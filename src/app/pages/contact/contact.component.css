@@ -296,22 +296,19 @@ input[type=checkbox]:checked + label {
   width:34px;
   font-size:14px
 }
-.social-icons a.facebook:hover
+.social-icons .fa-whatsapp:hover
 {
-  background-color:#3b5998
+  background-color:#4e983b
 }
-.social-icons a.twitter:hover
+.social-icons .fa-instagram:hover
 {
-  background-color:#00aced
+  background-color:#ed00e1
 }
-.social-icons a.linkedin:hover
+.social-icons .fa-phone:hover
 {
   background-color:#007bb6
 }
-.social-icons a.dribbble:hover
-{
-  background-color:#ea4c89
-}
+
 @media (max-width:767px)
 {
   .social-icons li.title

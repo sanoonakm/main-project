@@ -8,7 +8,7 @@ import { ServiceComponent } from './pages/service/service.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,NavbarComponent,HomeComponent],
+  imports: [RouterOutlet,NavbarComponent,HomeComponent,ServiceComponent,ContactComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
